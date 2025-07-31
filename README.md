@@ -20,7 +20,7 @@ npm install n8n-nodes-docx-converter
 1. Add the node to your n8n workflow.
 2. Connect the node to a previous node that outputs a `DOCX` file, ensuring that the input data is in binary format.
 	 - The input should be a binary file with the MIME type `application/vnd.openxmlformats-officedocument.wordprocessingml.document`.
-3. Configure the node by selecting the desired output format (`HTML`, `Text`, or `Markdown`).
+3. Configure the node by selecting the desired output format (`HTML`, `Text`, `Markdown`, or `All`).
 
 ## Configuration
 - **Output Format**: Choose the desired output format for the conversion:
