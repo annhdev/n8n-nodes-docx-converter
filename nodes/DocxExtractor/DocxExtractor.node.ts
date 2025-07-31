@@ -10,16 +10,16 @@ import {convertToHtml, extractRawText} from "mammoth";
 import turndown from "turndown";
 
 
-export class DocxConverter implements INodeType {
+export class DocxExtractor implements INodeType {
 	description: INodeTypeDescription = {
-		displayName: "Docx Converter",
-		name: "docxConverter",
+		displayName: "Docx Extractor",
+		name: "docxExtractor",
 		icon: "file:icon.svg",
 		group: ["transform"],
 		version: 1,
-		description: "Convert DOCX files to other formats",
+		description: "Extract DOCX files to other formats",
 		defaults: {
-			name: "Docx Converter"
+			name: "Docx Extractor"
 		},
 		inputs: [NodeConnectionType.Main],
 		outputs: [NodeConnectionType.Main],

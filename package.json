@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-docx-converter",
+  "name": "n8n-nodes-docx-extractor",
   "version": "0.1.0",
   "description": "Docx Converter Node for n8n",
   "keywords": [
@@ -7,18 +7,18 @@
     "n8n-nodes",
     "n8n-community",
     "n8n-community-nodes",
-    "n8n-community-nodes-html-cleaner",
+    "n8n-community-nodes-docx-extractor",
     "n8n-community-node-package"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/annhdev/n8n-nodes-docx-converter.git",
+  "homepage": "https://github.com/annhdev/n8n-nodes-docx-extractor.git",
   "author": {
     "name": "annhdev",
     "email": "annh.dev@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/annhdev/n8n-nodes-docx-converter.git"
+    "url": "https://github.com/annhdev/n8n-nodes-docx-extractor.git"
   },
   "engines": {
     "node": ">=20.15"
@@ -39,7 +39,7 @@
   "n8n": {
     "n8nNodesApiVersion": 1,
     "nodes": [
-      "dist/nodes/DocxConverter/DocxConverter.node.js"
+      "dist/nodes/DocxExtractor/DocxExtractor.node.js"
     ]
   },
   "devDependencies": {

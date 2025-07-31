@@ -1,6 +1,6 @@
 ![Banner image](https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)
 
-# n8n-nodes-docx-converter
+# n8n-nodes-docx-extractor
 This is a custom n8n node that converts `DOCX` files to `HTML`, `Text` or `Markdown` format using the [mammoth](https://github.com/mwilliamson/mammoth.js) and [turndown](https://github.com/mixmark-io/turndown) libraries.
 This node is designed to be used in n8n workflows to facilitate the conversion of `DOCX` documents into more web-friendly formats like `HTML`, `Text` or `Markdown`.
 
@@ -13,7 +13,7 @@ This node is designed to be used in n8n workflows to facilitate the conversion o
 ## Installation
 
 ```bash
-npm install n8n-nodes-docx-converter
+npm install n8n-nodes-docx-extractor
 ```
 
 ## Usage
